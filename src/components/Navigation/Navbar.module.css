@@ -1,0 +1,112 @@
+.main-container{
+  position: sticky;
+  top: 0;
+  background-color: #008170;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+  color: white;
+  font-weight: 600;
+  height: 100px;
+}
+
+.css-nav{
+
+}
+
+.css-nav > ul{
+
+}
+
+.css-nav > ul > li{
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.css-nav > ul > li:hover{
+    color: #64CCC5;
+}
+
+
+/* buttons for mobile screen */
+.menu{
+    display: none;
+}
+
+
+
+
+/* Default styles for all screen sizes */
+
+/* Media query for screens smaller than 576px (extra-small screens) */
+@media (max-width: 575.98px) {
+    /* Styles for extra-small screens go here */
+      .css-nav > ul{
+        background-color: #008170;
+        display: none;
+        padding: 60px;
+        text-align: center;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .menu{
+        display: inline-block;
+        margin-right: 3rem;
+    }
+  }
+  
+  /* Media query for screens between 576px and 767.98px (small screens) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Styles for small screens go here */
+      .css-nav > ul{
+        background-color: #008170;
+        display: none;
+        padding: 60px;
+        text-align: center;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .menu{
+        display: inline-block;
+        margin-right: 3rem;
+    }
+  }
+  
+  /* Media query for screens between 768px and 991.98px (medium screens) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Styles for medium screens go here */
+      .css-nav > ul{
+        background-color: #008170;
+        display: none;
+        padding: 60px;
+        text-align: center;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .menu{
+        display: inline-block;
+        margin-right: 3rem;
+    }
+  }
+  
+  /* Media query for screens between 992px and 1199.98px (large screens) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles for large screens go here */
+    
+  }
+  
+  /* Media query for screens 1200px and larger (extra-large screens) */
+  @media (min-width: 1200px) {
+    /* Styles for extra-large screens go here */
+    
+  }
+  

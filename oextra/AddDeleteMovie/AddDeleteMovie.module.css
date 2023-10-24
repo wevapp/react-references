@@ -1,0 +1,8 @@
+.mainContainer{
+    overflow-y: scroll;
+}
+
+.product-container{
+    border: 2px solid;
+    cursor: pointer;
+}
